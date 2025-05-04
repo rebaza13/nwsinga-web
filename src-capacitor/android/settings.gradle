@@ -1,0 +1,13 @@
+// Do not force Java compatibility level - allowing system default
+// System.setProperty('java.specification.version', '17')
+
+// Include required projects
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+// Do not apply the Java 17 compatibility patch
+// apply from: 'capacitor-android-java17.patch.gradle'
+
+// Apply the original capacitor settings
+apply from: 'capacitor.settings.gradle'

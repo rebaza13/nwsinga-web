@@ -1,0 +1,89 @@
+{
+  "params": {
+    "icon": "src/assets/1024.png",
+    "background": "#3A506B",
+    "quality": 100,
+    "padding": [0, 0, 0, 0],
+    "skipTrim": false,
+    "theme": "custom",
+    "minify": true,
+    "splashscreenIconRatio": 0.3,
+    "svgColor": "#FFF",
+    "sharp": 1,
+    "freeze": true,
+    "themeColor": "#3A506B",
+    "pngOptions": {
+      "quality": 100
+    },
+    "webp": false,
+    "optimizeLevel": 6,
+    "additionalParameters": {
+      "adaptiveIconBackgroundColor": "#3A506B",
+      "adaptiveIcons": true,
+      "roundedCorners": true,
+      "padding": 0.25
+    }
+  },
+  "assets": [
+    {
+      "generator": "png",
+      "name": "ic_launcher.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-mdpi",
+      "sizes": [ 48 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-hdpi",
+      "sizes": [ 72 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xhdpi",
+      "sizes": [ 96 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xxhdpi",
+      "sizes": [ 144 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xxxhdpi",
+      "sizes": [ 192 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher_round.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-mdpi",
+      "sizes": [ 48 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher_round.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-hdpi",
+      "sizes": [ 72 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher_round.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xhdpi",
+      "sizes": [ 96 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher_round.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xxhdpi",
+      "sizes": [ 144 ]
+    },
+    {
+      "generator": "png",
+      "name": "ic_launcher_round.png",
+      "folder": "src-capacitor/android/app/src/main/res/mipmap-xxxhdpi",
+      "sizes": [ 192 ]
+    }
+  ]
+}

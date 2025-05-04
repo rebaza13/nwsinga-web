@@ -1,0 +1,1 @@
+import{d as c,w as i}from"./index-D0a3PjNi.js";const a=c(({app:o})=>{const s=localStorage.getItem("app-locale"),e=t=>{document.documentElement.dir=t==="ckb"?"rtl":"ltr",t==="ckb"?document.body.classList.add("rtl"):document.body.classList.remove("rtl")};e(s||"en-US"),o.mixin({mounted(){this.$i18n&&i(()=>this.$i18n.locale,t=>{e(t)})}})});export{a as default};

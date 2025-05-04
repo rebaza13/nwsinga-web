@@ -1,0 +1,14 @@
+{
+  "input": "./src/assets/appicon.png.png",
+  "background": "#3A506B",
+  "quality": 100,
+  "skipTrim": true,
+  "padding": [0, 0, 0, 0],
+  "splashscreenIconRatio": 0.3,
+  "splashscreenColor": "#3A506B",
+  "output": {
+    "android": {
+      "path": "src-capacitor/android/app/src/main/res"
+    }
+  }
+}

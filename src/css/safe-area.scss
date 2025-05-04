@@ -1,0 +1,102 @@
+/* Safe area variables for better mobile experience */
+:root {
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+}
+
+/* Safe area padding classes */
+.safe-area-top {
+  padding-top: var(--safe-area-top);
+}
+
+.safe-area-right {
+  padding-right: var(--safe-area-right);
+}
+
+.safe-area-bottom {
+  padding-bottom: var(--safe-area-bottom);
+}
+
+.safe-area-left {
+  padding-left: var(--safe-area-left);
+}
+
+/* Apply safe area margin when needed */
+.q-header.safe-area-top {
+  padding-top: var(--safe-area-top);
+}
+
+.q-footer.safe-area-bottom {
+  padding-bottom: var(--safe-area-bottom);
+}
+
+/* Improve form elements and focus styles globally */
+.q-field--outlined .q-field__control {
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.q-field--outlined .q-field__control:hover {
+  border-color: var(--primary-color);
+}
+
+.q-field--focused .q-field__control {
+  border-color: var(--primary-color) !important;
+}
+
+/* Remove default focus outline and replace with our custom one */
+:focus {
+  outline: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring-color) !important;
+  outline-offset: 2px !important;
+}
+
+/* Button styling improvements */
+.q-btn {
+  border-radius: 8px;
+  position: relative;
+}
+
+.q-btn:focus-visible {
+  outline: 2px solid var(--focus-ring-color) !important;
+  outline-offset: 2px !important;
+}
+
+/* Notification toast styling */
+.notification-toast {
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Improve tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile improvements */
+@media (max-width: 599px) {
+  .q-dialog__inner--minimized > div {
+    max-width: 95vw !important;
+  }
+}
+
+/* Fix dialog scrolling */
+.q-dialog__inner {
+  max-height: 95vh;
+}
+
+.q-dialog__inner > div {
+  max-height: 95vh;
+  overflow: auto;
+}
+
+/* Fix q-field in modals */
+.q-dialog .q-card {
+  overflow: auto;
+}

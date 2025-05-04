@@ -1,0 +1,11 @@
+{
+  "appId": "org.capacitor.quasar.app",
+  "appName": "نووسینگە",
+  "webDir": "www",
+  "assets": {
+    "iconPath": "src/assets/building-icon.svg",
+    "splashPath": "src/assets/building-icon.svg",
+    "iconBackgroundColor": "#3A506B",
+    "splashBackgroundColor": "#3A506B"
+  }
+}
